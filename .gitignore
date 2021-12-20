@@ -2,7 +2,6 @@
 .idea/
 
 data/
-configs/
 
 **.egg-info/
 __pycache__/

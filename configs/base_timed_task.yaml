@@ -1,0 +1,15 @@
+duration:
+  days: 0.0
+  seconds: 0.0
+  microseconds: 0.0
+  milliseconds: 0.0
+  minutes: 30.0
+  hours: 0.0
+sleep: 2
+start_hooks: []
+loop_hooks: []
+exit_hooks: [
+  {'module': 'timed_task.hooks', 'name': 'CompletionNotification', 'args':{}},
+  {'module': 'timed_task.hooks', 'name': 'SoundEffect', 'args':{}},
+  {'module': 'timed_task.hooks', 'name': 'TaskWriter', 'args':{'path': 'task_output.csv'}},
+]
